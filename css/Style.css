@@ -1,0 +1,23 @@
+body {
+  font-family: "Verdana";
+  background-color: #222;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 960px;
+  font-size: 24px;
+  border-radius: 3px;
+  background: #f9f9f9;
+}
+
+.parallax {
+  width: auto;
+  height: 500px;
+  border-radius: 3px;
+  background: url("images/test_image.jpg") no-repeat center;
+  background-size: cover;
+  /*Need this for the background to NOT move when scrolling*/
+  background-attachment: fixed;
+}
